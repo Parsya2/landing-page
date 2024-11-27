@@ -1,7 +1,10 @@
+import Img2 from "../assets/img2.svg";
+import Img3 from "../assets/img3.svg";
+import Img5 from "../assets/img5.svg";
 export const Sec = () => {
   return (
     <>
-      <section className="bg-green-800 border-t-2 p-4">
+      <section className="bg-green-800 border-t-2 p-4 text-white">
         <div>
           <h1 className="text-white font-normal text-3xl md:text-6xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -88,6 +91,17 @@ export const Sec = () => {
               reprehenderit, nisi delectus inventore iure veritatis accusamus
               sequi itaque harum cum neque placeat. Repudiandae, odio!
             </p>
+          </div>
+        </div>
+        <div className="border-t-2">
+          <h1 className="font-normal text-3xl md:text-6xl mb-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+            deleniti odit laborum aliquid excepturi?
+          </h1>
+          <div className="flex gap-1 flex-col sm:flex-row justify-center mt-5">
+            <img src={Img2} alt="img" />
+            <img src={Img3} alt="img" />
+            <img src={Img5} alt="img" />
           </div>
         </div>
       </section>
