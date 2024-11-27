@@ -32,7 +32,7 @@ const Footer = () => {
                 Susah, Imm Ibrahim, 6th Floor
               </li>
             </ul>
-            <h1 className="font-medium text-lg">created by Amirmohamad.A</h1>
+            <h1 className="font-medium text-lg">created by Amirmohamad.A(parsya)</h1>
           </div>
         </div>
       </footer>
