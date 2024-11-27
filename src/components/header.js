@@ -4,7 +4,7 @@ const Header = () => {
     <header className="bg-green-800">
       <div className="p-4 flex flex-col md:flex-row">
         <div className="inline mt-5">
-          <h1 className="font-normal text-6xl text-white mb-5">
+          <h1 className="font-normal text-4xl md:text-6xl text-white mb-5">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae,
             placeat.
           </h1>
