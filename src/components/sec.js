@@ -4,7 +4,7 @@ import Img5 from "../assets/img5.svg";
 export const Sec = () => {
   return (
     <>
-      <section className="bg-green-800 border-t-2 p-4 text-white">
+      <section className="bg-green-950 border-t-2 p-4 text-white">
         <div>
           <h1 className="text-white font-normal text-3xl md:text-6xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.

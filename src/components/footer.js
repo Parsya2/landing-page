@@ -2,7 +2,7 @@ import Logo from "../assets/logo.svg";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-green-800 text-white p-4 border-t-2 flex flex-row items-start">
+      <footer className="bg-green-950 text-white p-4 border-t-2 flex flex-row items-start">
         <div className="container mx-auto">
           <img src={Logo} alt="logo" className="mx-auto mb-4 md:mb-0 md:mr-4 lg:float-left lg:mr-8 lg:mt-2" />
           <div className="flex flex-wrap justify-between gap-2">

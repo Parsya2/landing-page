@@ -1,7 +1,7 @@
 import IMG1 from "../assets/img1.svg";
 const Header = () => {
   return (
-    <header className="bg-green-800">
+    <header className="bg-green-950">
       <div className="p-4 flex flex-col md:flex-row">
         <div className="inline mt-5">
           <h1 className="font-normal text-4xl md:text-6xl text-white mb-5">
