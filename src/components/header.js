@@ -16,7 +16,7 @@ const Header = () => {
               viverra id ut amet feugiat. Sed nec id id sed ut nulla aliquet
               neque. Sed est malesuada lobortis aliquam dolor eget donec
             </p>
-            <button className="hover:bg-green-950 text-base font-medium mt-5 hover:text-white active:bg-green-950 active:text-white bg-white text-green-950 w-32 h-14 rounded-md">
+            <button className="hover:bg-green-950 hover:border-2 text-base font-medium mt-5 hover:text-white active:bg-green-950 active:text-white bg-white text-green-950 w-32 h-14 rounded-md">
               Lorem, ipsum.
             </button>
           </div>
