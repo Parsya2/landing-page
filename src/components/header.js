@@ -1,7 +1,7 @@
 import IMG1 from "../assets/img1.svg";
 const Header = () => {
   return (
-    <header className="bg-green-950">
+    <header className="bg-green-800">
       <div className="p-4 flex flex-col md:flex-row">
         <div className="inline mt-5">
           <h1 className="font-normal text-4xl md:text-6xl text-white mb-5">
@@ -16,7 +16,7 @@ const Header = () => {
               viverra id ut amet feugiat. Sed nec id id sed ut nulla aliquet
               neque. Sed est malesuada lobortis aliquam dolor eget donec
             </p>
-            <button className="hover:bg-green-950 hover:border-2 text-base font-medium mt-5 hover:text-white active:bg-green-950 active:text-white bg-white text-green-950 w-32 h-14 rounded-md">
+            <button className="hover:bg-green-800 hover:border-2 text-base font-medium mt-5 hover:text-white active:bg-green-950 active:text-white bg-white text-green-950 w-32 h-14 rounded-md">
               Lorem, ipsum.
             </button>
           </div>

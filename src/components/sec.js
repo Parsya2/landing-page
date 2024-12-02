@@ -4,7 +4,7 @@ import Img5 from "../assets/img5.svg";
 export const Sec = () => {
   return (
     <>
-      <section className="bg-green-950 border-t-2 p-4 text-white">
+      <section className="bg-green-800 border-t-2 p-4 text-white">
         <div>
           <h1 className="text-white font-normal text-3xl md:text-6xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -106,7 +106,7 @@ export const Sec = () => {
         </div>
         <div className="font-normal text-3xl md:text-6xl border-t-2 my-5 flex flex-col items-center justify-center">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          <button className="hover:bg-green-950 text-base font-medium mt-5 hover:border-2 hover:text-white active:bg-green-950 active:text-white bg-white text-green-950 w-32 h-14 rounded-md">
+          <button className="hover:bg-green-800 text-base font-medium mt-5 hover:border-2 hover:text-white active:bg-green-800 active:text-white bg-white text-green-950 w-32 h-14 rounded-md">
             Lorem, ipsum.
           </button>
         </div>
