@@ -1,10 +1,10 @@
-import Menu from "../assets/menu.svg";
+import Menu from "../assets/menu.png";
 import { useState } from "react";
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      {isOpen ? <div className="flex flex-col border-b-2 border-customBeige pb-4">
+      {isOpen ? <div className="flex flex-col border-b-2 border-customBeige pb-4 transition-all duration-500 ease-out">
         <a
           href="#"
           className="text-white mx-4 mb-4 mt-4 border-b-2 border-customBeige"
@@ -23,7 +23,7 @@ const Nav = () => {
         >
           ORDER ONLINE
         </a>
-      </div> : <div></div>}
+      </div> : <div className="transition-all duration-500 ease-out"></div>}
       <nav className="sticky top-0 flex items-center">
         <h1 className="font-bowlby font-normal text-3xl text-white m-4">
           Burger
