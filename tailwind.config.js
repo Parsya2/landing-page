@@ -20,7 +20,7 @@ module.exports = {
       height:{
         '60px': '60px',
         '200px': '200'
-      }
+      },
     },
   },
   plugins: [],

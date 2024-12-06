@@ -4,7 +4,7 @@ const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      {isOpen ? <div className="flex flex-col border-b-2 border-customBeige pb-4 transition-all duration-500 ease-out">
+      {isOpen ? <div className="flex flex-col border-b-2 border-customBeige pb-4 transition-all duration-500 ease-out bg-customGrey w-full h-44">
         <a
           href="#"
           className="text-white mx-4 mb-4 mt-4 border-b-2 border-customBeige"
@@ -24,7 +24,7 @@ const Nav = () => {
           ORDER ONLINE
         </a>
       </div> : <div className="transition-all duration-500 ease-out"></div>}
-      <nav className="sticky top-0 flex items-center">
+      <nav className="sticky top-0 flex items-center bg-customGrey">
         <h1 className="font-bowlby font-normal text-3xl text-white m-4">
           Burger
         </h1>
@@ -45,7 +45,7 @@ const Nav = () => {
         <img
           src={Menu}
           alt="menu"
-          className="w-10 absolute right-5 sm:hidden"
+          className="w-10 absolute right-5 sm:hidden cursor-pointer"
           onClick={() => {
             if (isOpen === true) {
               setIsOpen(false);
