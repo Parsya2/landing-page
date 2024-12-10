@@ -24,8 +24,8 @@ const Nav = () => {
           ORDER ONLINE
         </a>
       </div> : <div className="transition-all duration-500 ease-out"></div>}
-      <nav className="flex items-center bg-customGrey">
-        <h1 className="font-bowlby font-normal text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl text-white m-4">
+      <nav className="flex items-center bg-customGrey mt-11">
+        <h1 className="font-bowlby font-normal text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl text-white m-4 absolute left-3">
           Burger
         </h1>
         <div className="hidden sm:flex m-4 absolute right-4 text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-normal">
