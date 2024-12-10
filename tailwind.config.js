@@ -19,7 +19,8 @@ module.exports = {
       },
       height:{
         '60px': '60px',
-        '200px': '200'
+        '200px': '200',
+        '753': '753px'
       },
       boxShadow:{
         'my': '10px 10px 0px -2px black'

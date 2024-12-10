@@ -5,3 +5,14 @@
 body {
     @apply bg-customGrey;
 }
+
+.bg-custom1 {
+    background-image: url('./assets/img2.png');
+    background-size: cover;
+    background-position: center;
+}
+.bg-custom2 {
+    background-image: url('./assets/img3.png');
+    background-size: cover;
+    background-position: center;
+}
