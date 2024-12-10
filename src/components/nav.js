@@ -1,4 +1,4 @@
-import Menu from "../assets/menu.png";
+import Menu from "../assets/menu.svg";
 import { useState } from "react";
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
