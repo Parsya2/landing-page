@@ -24,7 +24,7 @@ const Nav = () => {
           ORDER ONLINE
         </a>
       </div> : <div className="transition-all duration-500 ease-out"></div>}
-      <nav className="sticky top-0 flex items-center bg-customGrey">
+      <nav className="flex items-center bg-customGrey">
         <h1 className="font-bowlby font-normal text-3xl text-white m-4">
           Burger
         </h1>
