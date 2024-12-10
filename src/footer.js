@@ -2,7 +2,7 @@ import { useState } from "react";
 const Footer = () => {
     const [email,setEmail] = useState();
   return (
-    <footer className="w-4/5 rounded-2xl bg-customLilac flex flex-col md:flex-row justify-between items-center p-4 gap-5 mt-8 mb-7">
+    <footer className="w-fit rounded-2xl bg-customLilac flex flex-col md:flex-row justify-between items-center p-4 gap-5 mt-8 mb-7">
       <h1 className="font-bowlby font-normal text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl text-black m-4">
         Burger
       </h1>
